@@ -50,3 +50,21 @@ for(var i=0; i < navLinks.length ;i++)
 
     })
 }
+
+let preloader = document.querySelector(".spin")
+preloader.classList.add("activeSpin")
+setInterval(remove, 5000);
+function remove()
+{
+    preloader.classList.remove("activeSpin")
+}
+$(document).ready(function() {
+    //Preloader
+    preloaderFadeOutTime = 500;
+    function hidePreloader() {
+    var preloader = $('.spinner-wrapper');
+    preloader.fadeOut(preloaderFadeOutTime);
+    }
+    hidePreloader();
+});
+
