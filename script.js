@@ -40,7 +40,7 @@ cancelBtn.onclick = function(){
 } 
 
 // side nav bar close we click on nav link
-let navLinks = document.querySelector(".menu li a");
+let navLinks = document.querySelectorAll(".menu li a");
 for(var i=0; i < navLinks.length ;i++)
 {
     navLinks[i].addEventListener("click",function(){
