@@ -55,7 +55,7 @@
                 <div class="text-four">From India</div>
             </div>
             <div class="button">
-                <button>Hire Me</button>
+                <a href="https://www.linkedin.com/in/ayush-sharma-551133213/"><button>Hire Me</button></a>
             </div>
         </div>
     </section>
