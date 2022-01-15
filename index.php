@@ -12,6 +12,11 @@
 </head>
 
 <body>
+    <div class="spin">
+        <div class="spinner-wrapper">
+            <div class="spinner"></div>
+            </div>
+    </div>
     <div class="scroll-button">
         <a href="#home"><i class="fas fa-arrow-up"></i></a>
     </div>
